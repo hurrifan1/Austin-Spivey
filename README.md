@@ -1,4 +1,4 @@
-## Hi!
+## Hi! I am Austin.
 
 I am a senior at the University of North Carolina Wilmington. I am graduating in May 2018.  
 
