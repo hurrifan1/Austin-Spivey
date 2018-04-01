@@ -3,7 +3,7 @@ layout: default
 title: Austin Spivey
 ---
 
-![Spivey Headshot](docs/assets/IMG_1278.JPG)
+![Spivey Headshot](assets/IMG_1278.JPG)
 
 ### Hi! I’m Austin.
 
