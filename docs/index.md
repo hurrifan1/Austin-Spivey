@@ -3,7 +3,7 @@ layout: default
 title: Austin Spivey
 ---
 
-![Spivey Headshot](https://github.com/hurrifan1/Austin-Spivey/blob/master/docs/assets/IMG_1278.JPG)
+![Spivey Headshot](Austin-Spivey/docs/assets/IMG_1278.JPG)
 
 ### Hi! I’m Austin.
 
