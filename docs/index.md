@@ -3,8 +3,6 @@ layout: default
 title: Austin Spivey
 ---
 
-![Spivey Headshot](assets/IMG_1278.JPG)
-
 ### Hi! I’m Austin.
 
 I am a senior at the University of North Carolina Wilmington. I am graduating in May 2018.
