@@ -3,6 +3,7 @@
 
 @import 'jekyll-theme-cayman';
 
+
 .circular-headshot {
 	width: 300px;
 	height: 300px;
@@ -10,4 +11,9 @@
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	background: url(/assets/IMG_1278.JPG) no-repeat;
+	}
+
+.circular img {
+	opacity: 0;
+	filter: alpha(opacity=0);
 	}
