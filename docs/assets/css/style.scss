@@ -5,20 +5,43 @@
 
 
 .circular-headshot {
+  display: block;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  position: relative;
+  animation: hovering 1s infinite alternate-reverse ease-in-out;
+  &:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background: url("https://raw.githubusercontent.com/hurrifan1/Austin-Spivey/master/docs/assets/IMG_1278.JPG")
+    no-repeat 50% 50%;
+    background-size: contain;
     width: 200px;
     height: 200px;
-    border-radius: 150px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    background: url(/assets/IMG_1278.JPG) no-repeat;
-    background-position: 50% 50%;
-    background-size: 200px 200px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
     margin: auto;
-
+    transform: scale(0.9);
+    transition: 1000ms ease-out;
+  }
+  &:hover{
+    &:after{
+      transform: scale(1)
+    }
+  }
 }
-
-.circular-headshot img {
-    opacity: 0;
-    filter: alpha(opacity=0)
-
+@keyframes hovering {
+  0%{
+    transform: translate3d(0,0,0)
+  }
+  100%{
+    transform: translate3d(0,-10px,0)
+  }
 }
